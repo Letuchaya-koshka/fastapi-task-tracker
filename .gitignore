@@ -1,0 +1,34 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python-кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Секреты
+.env
+.env.local
+
+# Тесты и кэш инструментов
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Настройки редакторов
+.vscode/
+.idea/
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
